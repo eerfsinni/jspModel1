@@ -18,3 +18,5 @@ where id = 'abc';
 select count(*)
 from member
 where id = 'abc';
+
+select id, name, email, auth from member where id = "abc" and pwd = "123";

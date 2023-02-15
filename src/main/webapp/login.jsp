@@ -29,7 +29,7 @@
 		<tr>
 			<th>아이디</th>
 			<td>
-			<input type = "text" id = "id" size = "20"><br>
+			<input type = "text" id = "id" name = "id" size = "20"><br>
 			<input type = "checkbox" id = "chk_save_id"> id저장
 			</td>
 		</tr>
@@ -37,7 +37,7 @@
 		<tr>
 			<th>패스워드</th>
 			<td>
-			<input type = "password" id = "pwd" size = "20"><br>
+			<input type = "password" id = "pwd" name = "pwd" size = "20"><br>
 			</td>
 		</tr>	
 

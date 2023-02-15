@@ -117,13 +117,12 @@ public class MemberDao {
 			System.out.println("3/3 login success");
 			
 			if(rs.next()) {
-				String _id = rs.getString(1);
-				String _name = rs.getString(2);
-				String _email = rs.getString(3);
-				int _auth = rs.getInt(4);
+				String _id = rs.getString("id");
+				String _name = rs.getString("name");
+				String _email = rs.getString("email");
+				int _auth = rs.getInt("auth");
 				
 				mem = new MemberDto(_id, null, _name, _email, _auth);
-				
 				System.out.println(mem.toString());
 			}
 
